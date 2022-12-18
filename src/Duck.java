@@ -10,7 +10,7 @@ public class Duck extends Animal implements Speakable,Runable,Flyable {
     }
 
     @Override
-    public Integer runSpeed() {
+    public int runSpeed() {
         return 5;
     }
 

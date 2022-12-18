@@ -5,11 +5,11 @@ public class Eagle extends Animal implements Speakable,Runable,Flyable {
 
     @Override
     public int flySpeed() {
-        return 100;
+        return 180;
     }
 
     @Override
-    public Integer runSpeed() {
+    public int runSpeed() {
         return 1;
     }
 

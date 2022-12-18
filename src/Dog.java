@@ -11,7 +11,7 @@ public class Dog extends Animal implements Speakable,Runable {
 
 
     @Override
-    public Integer runSpeed() {
+    public int runSpeed() {
         return 30;
     }
 

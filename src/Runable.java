@@ -1,4 +1,4 @@
 public interface Runable {
-    public Integer runSpeed();
+    public int runSpeed();
 
 }

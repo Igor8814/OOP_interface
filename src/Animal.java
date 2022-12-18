@@ -1,4 +1,4 @@
-public abstract class Animal {
+public  class Animal {
     private String nickname;
     private int legs;
     private String owner;
