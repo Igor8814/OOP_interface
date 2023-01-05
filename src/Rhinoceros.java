@@ -1,12 +1,12 @@
-public class Elephant extends Animal implements Runable,Swimable,Speakable{
+public class Rhinoceros extends Animal implements Runable,Swimable,Speakable{
 
-    public Elephant(String nickname, int legs, String owner) {
+    public Rhinoceros(String nickname, int legs, String owner) {
         super(nickname, legs, owner);
     }
 
     @Override
     public String toString() {
-        return "Elephant" + super.toString();
+        return "Rhinoceros" + super.toString();
     }
 
     @Override
@@ -21,6 +21,6 @@ public class Elephant extends Animal implements Runable,Swimable,Speakable{
 
     @Override
     public int swimSpeed() {
-        return 7;
+        return 10;
     }
 }

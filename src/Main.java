@@ -5,8 +5,8 @@ public class Main {
                 .addAnimal(new Dog("Tuzik",4,"Petya"))
                 .addAnimal(new Duck("Donald",2,"Ivan"))
                 .addAnimal(new Eagle("Trut",2,"Sasha"))
-                .addAnimal(new Penguin("Korol",2,"Antarktida"))
-                .addAnimal(new Elephant("Slonik",4,"Africa"));
+                .addAnimal(new Turtle("Korol",4,"Antarktida"))
+                .addAnimal(new Rhinoceros("Rog",4,"Africa"));
         System.out.println(zoo.toString());
         System.out.println("Как говорят животные:");
         System.out.println(zoo.talk());

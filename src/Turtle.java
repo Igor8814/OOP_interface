@@ -1,4 +1,4 @@
-public class Penguin extends Animal implements Swimable,Runable,Speakable{
+public class Turtle extends Animal implements Swimable,Runable,Speakable{
 
     public Penguin(String nickname, int legs, String owner) {
         super(nickname, legs, owner);
@@ -7,21 +7,21 @@ public class Penguin extends Animal implements Swimable,Runable,Speakable{
 
     @Override
     public String toString() {
-        return "Penguin" + super.toString();
+        return "Turtle" + super.toString();
     }
 
     @Override
     public int runSpeed() {
-        return 15;
+        return 0;
     }
 
     @Override
     public String speak() {
-        return "piipiippi";
+        return "brbrbrbrb";
     }
 
     @Override
     public int swimSpeed() {
-        return 100;
+        return 50;
     }
 }
